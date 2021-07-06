@@ -773,7 +773,7 @@ class Index3 extends React.Component
                     <li>
                       <a href="#">Shop Grid</a>
                       <ul>
-                        <li><a href="shop-3-column.html">Shop Grid 3 Column</a></li>
+                      <li><Link to="/shop">Shop Grid 3 Column</Link></li>
                         <li><a href="shop-4-column.html">Shop Grid 4 Column</a></li>
                         <li><a href="shop-left-sidebar.html">Shop Grid Left Sidebar</a></li>
                         <li><a href="shop-right-sidebar.html">Shop Grid Right Sidebar</a></li>
@@ -4492,7 +4492,7 @@ class Index3 extends React.Component
                         <li>
                           <ul>
                             <li className="mega-menu-title"><a href="#">Shop Grid</a></li>
-                            <li><a href="shop-3-column.html">Shop Grid 3 Column</a></li>
+                            <li><Link to="/shop">Shop Grid 3 Column</Link></li>
                             <li><a href="shop-4-column.html">Shop Grid 4 Column</a></li>
                             <li><a href="shop-left-sidebar.html">Shop Grid Left Sidebar</a></li>
                             <li><a href="shop-right-sidebar.html">Shop Grid Right Sidebar</a></li>
@@ -4847,7 +4847,7 @@ class Index3 extends React.Component
                       <li>
                         <a href="#">Shop Grid</a>
                         <ul>
-                          <li><a href="shop-3-column.html">Shop Grid 3 Column</a></li>
+                        <li><Link to="/shop">Shop Grid 3 Column</Link></li>
                           <li><a href="shop-4-column.html">Shop Grid 4 Column</a></li>
                           <li><a href="shop-left-sidebar.html">Shop Grid Left Sidebar</a></li>
                           <li><a href="shop-right-sidebar.html">Shop Grid Right Sidebar</a></li>
