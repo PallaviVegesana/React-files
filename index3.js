@@ -818,7 +818,7 @@ class Index3 extends React.Component
                     <li><Link to="/checkout">Checkout Page</Link></li>
                     <li><Link to="/compare">Compare Page</Link></li>
                     <li> <Link to="/login">Login &amp; Regiter Page</Link></li>
-                    <li><a href="my-account.html">Account Page</a></li>
+                    <li><Link to="/myaccount">Account Page</Link></li>
                     <li><Link to="/wishlist">Wishlist Page</Link></li>
                   </ul>
                 </li>
@@ -4112,7 +4112,7 @@ class Index3 extends React.Component
                     <li className="dropdown after-n">
                       <a className="angle-icon" href="#">Settings</a>
                       <ul className="dropdown-nav">
-                        <li><a href="my-account.html">My Account</a></li>
+                        <li><Link to="/myaccount">My Account</Link></li>
                         <li><Link to="/checkout">Checkout</Link></li>
                         <li><Link to="/login">Login</Link></li>
                       </ul>
@@ -4548,7 +4548,7 @@ class Index3 extends React.Component
                         <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
 
                         <li><Link to="/login">Login &amp; Regiter Page</Link></li>
-                        <li><a href="my-account.html">Account Page</a></li>
+                        <li><Link to="/myaccount">My Account</Link></li>
                         <li><Link to="/wishlist">Wishlist Page</Link></li>
                       </ul>
                     </li>
@@ -4892,7 +4892,7 @@ class Index3 extends React.Component
                       <li><Link to="/checkout">Checkout Page</Link></li>
                       <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
                       <li> <Link to="/login">Login &amp; Regiter Page</Link></li>
-                      <li><a href="my-account.html">Account Page</a></li>
+                       <li><Link to="/myaccount">My Account</Link></li>
                       <li><Link to="/wishlist">Wishlist Page</Link></li>
                     </ul>
                   </li>
