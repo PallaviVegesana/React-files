@@ -1,12 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+
 class Index3 extends React.Component
 {
     render()
     {
-        return(
-            <div>
- {/* main layout start from here */}
+        return (
+         <div>
+
+{/* main layout start from here */}
 {/*====== PRELOADER PART START ======*/}
 {/* <div id="preloader">
   <div class="preloader">
@@ -39,8 +41,8 @@ class Index3 extends React.Component
                     <a className="angle-icon" href="#">Settings</a>
                     <ul className="dropdown-nav">
                     <li><Link to="/myaccount">My Account</Link></li>
-                        <li><Link to="/checkout">Checkout</Link></li>
-                        <li><Link to="/login">Login</Link></li>
+                      <li><Link to="/checkout">Checkout</Link></li>
+                      <li><Link to ="/login">Login</Link></li>
                     </ul>
                   </li>
                   {/* Settings End */}
@@ -218,8 +220,8 @@ class Index3 extends React.Component
                 {/*Contact info End */}
                 {/*Cart info Start */}
                 <div className="cart-info d-flex">
-           <li><Link className="count-cart random" to = "/compare" > </Link></li>   
-                 <li><Link className="count-cart heart" to = "/wishlist"></Link></li>
+                  <Link to="/compare" className="count-cart random" ></Link>
+                  <Link to="/wishlist" className="count-cart heart" > </Link>
                   <div className="mini-cart-warp">
                     <a href="#" className="count-cart"><span>$20.00</span></a>
                     <div className="mini-cart-content">
@@ -371,7 +373,7 @@ class Index3 extends React.Component
                           <li><a href="index.html">Organic 1</a></li>
                           <li><a href="index-2.html">Organic 2</a></li>
                           <li><a href="index-3.html">Organic 3</a></li>
-                          <li><Link to="/index1">Organic 4 </Link></li>
+                          <li><Link to="/index1">Organic  </Link></li>
                         </ul>
                       </li>
                       <li className="menu-dropdown position-static">
@@ -386,7 +388,7 @@ class Index3 extends React.Component
                       <li className="menu-dropdown position-static">
                         <a href="#">Home Digital <i className="ion-ios-arrow-down" /></a>
                         <ul className="sub-menu sub-menu-2">
-                        <li><Link to="/index3">Digital 1</Link></li>
+                        <li><Link to="/index3">Digital </Link></li>
                           <li><a href="index-10.html">Digital 2</a></li>
                           <li><a href="index-11.html">Digital 3</a></li>
                           <li><a href="index-12.html">Digital 4</a></li>
@@ -397,7 +399,7 @@ class Index3 extends React.Component
                         <ul className="sub-menu sub-menu-2">
                           <li><a href="index-13.html">Furniture 1</a></li>
                           <li><a href="index-14.html">Furniture 2</a></li>
-                          <li><Link to="/index4">Furniture 3</Link></li>
+                          <li><Link to="/index4">Furniture </Link></li>
                           <li><a href="index-16.html">Furniture 4</a></li>
                         </ul>
                       </li>
@@ -428,8 +430,8 @@ class Index3 extends React.Component
                         <ul>
                           <li className="mega-menu-title"><a href="#">Shop List</a></li>
                           <li><Link to="/shoplist">Shop List</Link></li>
-                        {/*  <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
-                          <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>*/}
+                          <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
+                          <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>
                         </ul>
                       </li>
                       <li>
@@ -469,8 +471,7 @@ class Index3 extends React.Component
                     <a href="#">Pages <i className="ion-ios-arrow-down" /></a>
                     <ul className="sub-menu">
                     <li><Link to="/about">About Page</Link></li>
-                        <li><Link to="/cart">Cart Page</Link></li>
-                        <li><Link to="/checkout">Checkout Page</Link></li>
+                    <li><Link to="/checkout">Checkout Page</Link></li>
                         <li><Link to="/compare">Compare Page</Link></li>
                         <li><Link to="/login">Login &amp; Regiter Page</Link></li>
                         <li><Link to="/myaccount">Account Page</Link></li>
@@ -490,7 +491,7 @@ class Index3 extends React.Component
                       <li className="menu-dropdown position-static">
                         <a href="#">Blog List <i className="ion-ios-arrow-down" /></a>
                         <ul className="sub-menu sub-menu-2">
-                        <li><Link to="/blogleft">Blog Grid Left Sidebar</Link></li>
+                          <li><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a></li>
                           <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
                         </ul>
                       </li>
@@ -503,7 +504,7 @@ class Index3 extends React.Component
                       </li>
                     </ul>
                   </li>
-                  <li><Link to="/contact">Contact Us</Link></li>
+                  <li><a href="contact.html">Contact Us</a></li>
                 </ul>
               </div>
               {/*Main Navigation End */}
@@ -662,8 +663,8 @@ class Index3 extends React.Component
               {/*Contact info End */}
               {/*Cart info Start */}
               <div className="cart-info d-flex">
-                <Link to= "/compare" className="count-cart random d-xs-none"></Link>
-                <a href="wishlist.html" className="count-cart heart d-xs-none" />
+                <Link to="/compare" className="count-cart random d-xs-none" ></Link>
+                <Link to="/wishlist" className="count-cart heart d-xs-none" ></Link>
                 <div className="mini-cart-warp">
                   <a href="#" className="count-cart"><span>$20.00</span></a>
                   <div className="mini-cart-content">
@@ -680,7 +681,6 @@ class Index3 extends React.Component
                             <a href="#"><i className="ion-android-cancel" /></a>
                           </div>
                         </div>
-                
                       </li>
                       <li className="single-shopping-cart">
                         <div className="shopping-cart-img">
@@ -726,7 +726,7 @@ class Index3 extends React.Component
                         <li><a href="index.html">Organic 1</a></li>
                         <li><a href="index-2.html">Organic 2</a></li>
                         <li><a href="index-3.html">Organic 3</a></li>
-                        <li><Link to="/index1">Organic 4 </Link></li>
+                        <li><Link to="/index1">Organic  </Link></li>
                       </ul>
                     </li>
                     <li>
@@ -741,7 +741,7 @@ class Index3 extends React.Component
                     <li>
                       <a href="#">Home Digital</a>
                       <ul>
-                        <li><a href="index-9.html">Digital 1</a></li>
+                      <li><Link to="/index3">Digital </Link></li>
                         <li><a href="index-10.html">Digital 2</a></li>
                         <li><a href="index-11.html">Digital 3</a></li>
                         <li><a href="index-12.html">Digital 4</a></li>
@@ -782,7 +782,7 @@ class Index3 extends React.Component
                     <li>
                       <a href="#">Shop List</a>
                       <ul>
-                        <li><a href="shop-list.html">Shop List</a></li>
+                      <li><Link to="/shoplist">Shop List</Link></li>
                         <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
                         <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>
                       </ul>
@@ -813,28 +813,27 @@ class Index3 extends React.Component
                 <li>
                   <a href="#">Pages</a>
                   <ul>
-                    <li><Link to="/about">About Page</Link></li>
-                    <li><Link to="/cart">Cart Page</Link></li>
-                    <li><Link to="/checkout">Checkout Page</Link></li>
-                    <li><Link to="/compare">Compare Page</Link></li>
-                    <li> <Link to="/login">Login &amp; Regiter Page</Link></li>
-                    <li><Link to="/myaccount">Account Page</Link></li>
-                    <li><Link to="/wishlist">Wishlist Page</Link></li>
+                  <li><Link to="/about">About Page</Link></li>
+                
+                <li><Link to="/checkout">Checkout Page</Link></li>
+                <li><Link to="/compare">Compare Page</Link></li>
+                <li><Link to="/login">Login &amp; Regiter Page</Link></li>
+                <li><Link to="/myaccount">Account Page</Link></li>
+                <li><Link to="/wishlist">Wishlist Page</Link></li>
                   </ul>
                 </li>
                 <li>
                   <a href="#">Blog</a>
                   <ul>
-                  <li><Link to="/blogright">Blog Grid Right Sidebar</Link></li>
-                    
+                  <li><Link to="/blogleft">Blog Grid Left Sidebar</Link></li>
                   <li><Link to="/blogright">Blog Grid Right Sidebar</Link></li>
                     <li><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a></li>
                     <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
                     <li><Link to="/blogsingle">Blog Single Left Sidebar</Link></li>
-                   
+                    <li><a href="blog-single-right-sidebar.html">Blog Single Right Sidebar</a></li>
                   </ul>
                 </li>
-                <li><Link to="/contact">Contact Us</Link></li>
+                <li><a href="contact.html">Contact Us</a></li>
               </ul>
             </nav>
           </div>
@@ -1101,12 +1100,12 @@ class Index3 extends React.Component
           </div>
           <div className="add-to-link">
             <ul>
-            <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+              <li className="cart"><a className="cart-btn" href="cart.html">ADD TO CART </a></li>
               <li>
               <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
               </li>
               <li>
-              <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
               </li>
             </ul>
           </div>
@@ -1149,10 +1148,10 @@ class Index3 extends React.Component
             <ul>
             <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
               <li>
-              <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
               </li>
               <li>
-              <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
               </li>
             </ul>
           </div>
@@ -1196,7 +1195,7 @@ class Index3 extends React.Component
               <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
               </li>
               <li>
-              <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
               </li>
             </ul>
           </div>
@@ -1598,7 +1597,6 @@ class Index3 extends React.Component
                   <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
                   </li>
                   <li>
-                   
                   <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
                   </li>
                 </ul>
@@ -1654,8 +1652,7 @@ class Index3 extends React.Component
                   <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
                   </li>
                   <li>
-                    <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
-
+                  <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
                   </li>
                 </ul>
               </div>
@@ -1857,7 +1854,6 @@ class Index3 extends React.Component
                         </li>
                         <li>
                         <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
-
                         </li>
                       </ul>
                     </div>
@@ -1999,7 +1995,7 @@ class Index3 extends React.Component
                         </li>
                         <li>
                         <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
-
+                        </li>
                       </ul>
                     </div>
                   </article>
@@ -2292,8 +2288,9 @@ class Index3 extends React.Component
                     </div>
                     <div className="add-to-link">
                       <ul>
-                      <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>                        <li>
-                      <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                      <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                        <li>
+                        <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
                         </li>
                         <li>
                         <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
@@ -2451,8 +2448,7 @@ class Index3 extends React.Component
                       <ul>
                       <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
                         <li>
-                        <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
-                        </li>
+                        <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>                        </li>
                         <li>
                         <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
                         </li>
@@ -2782,7 +2778,6 @@ class Index3 extends React.Component
                         </li>
                         <li>
                         <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
-
                         </li>
                       </ul>
                     </div>
@@ -2825,8 +2820,7 @@ class Index3 extends React.Component
                       <ul>
                       <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
                         <li>
-                        <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
-                        </li>
+                        <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>    </li>
                         <li>
                         <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
                         </li>
@@ -3033,7 +3027,7 @@ class Index3 extends React.Component
                     </div>
                     <div className="add-to-link">
                       <ul>
-                        <li className="cart"><a className="cart-btn" href="cart.html">ADD TO CART </a></li>
+                      <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
                         <li>
                         <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
                         </li>
@@ -3087,7 +3081,6 @@ class Index3 extends React.Component
                         </li>
                         <li>
                         <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
-
                         </li>
                       </ul>
                     </div>
@@ -3286,7 +3279,10 @@ class Index3 extends React.Component
                     </div>
                     <div className="add-to-link">
                       <ul>
+                      
                       <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                      
+                      
                         <li>
                         <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
                         </li>
@@ -3430,7 +3426,7 @@ class Index3 extends React.Component
                       <ul>
                       <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
                         <li>
-                          <a href="wishlist.html"><i className="ion-android-favorite-outline" /></a>
+                        <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
                         </li>
                         <li>
                         <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
@@ -3474,7 +3470,7 @@ class Index3 extends React.Component
                     </div>
                     <div className="add-to-link">
                       <ul>
-                      <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                        <li className="cart"><a className="cart-btn" href="cart.html">ADD TO CART </a></li>
                         <li>
                         <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
                         </li>
@@ -3522,7 +3518,7 @@ class Index3 extends React.Component
                       <ul>
                       <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
                         <li>
-                          <a href="wishlist.html"><i className="ion-android-favorite-outline" /></a>
+                        <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
                         </li>
                         <li>
                         <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
@@ -3683,7 +3679,7 @@ class Index3 extends React.Component
                         <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
                         </li>
                         <li>
-                          <a href="compare.html"><i className="ion-ios-shuffle-strong" /></a>
+                        <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
                         </li>
                       </ul>
                     </div>
@@ -3776,7 +3772,8 @@ class Index3 extends React.Component
                       <ul>
                       <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
                         <li>
-                        <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>    </li>
+                        <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                        </li>
                         <li>
                         <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
                         </li>
@@ -3824,8 +3821,7 @@ class Index3 extends React.Component
                         <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
                         </li>
                         <li>
-                        <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
-                        </li>
+                        <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>  </li>
                       </ul>
                     </div>
                   </article>
@@ -3955,12 +3951,12 @@ class Index3 extends React.Component
           </div>
           <div className="blog-post-content d-flex">
             <div className="blog-post-content-cell">
-            <li><Link to="/blogleft"> Digital </Link></li>
-              <h4 className="blog-post-heading"> <Link to="/blogsingle">The best android phones in 2021</Link></h4>
+              <a href="blog-grid-left-sidebar.html" className="blog-meta">Digital</a>
+              <h4 className="blog-post-heading"><a href="blog-single-left-sidebar.html">The best Android phones in 2021</a></h4>
               <p className="blog-text">
                 Those on a budget can get a good-enough Android phone for under $200. Step up to the $400 range, and the choices get considerably better, especially when it comes to camera quality...
               </p>
-             <h4> <Link className="read-more-btn" to ="/blogsingle"> Read More <i className="ion-android-arrow-dropright-circle" /></Link></h4>
+              <a className="read-more-btn" href="blog-single-left-sidebar.html"> Read More <i className="ion-android-arrow-dropright-circle" /></a>
             </div>
           </div>
         </article>
@@ -3973,12 +3969,12 @@ class Index3 extends React.Component
           </div>
           <div className="blog-post-content d-flex">
             <div className="blog-post-content-cell">
-              <Link to="/blogleft" className="blog-meta">Digital</Link>
-              <h4 className="blog-post-heading"><Link to="/blogsingle">The best laptops for you, from ultraportables to high-powered editing machines</Link></h4>
+              <a href="blog-grid-left-sidebar.html" className="blog-meta">Digital</a>
+              <h4 className="blog-post-heading"><a href="blog-single-left-sidebar.html">The best laptops for you, from ultraportables to high-powered editing machines</a></h4>
               <p className="blog-text">
                 The best laptop of 2021 can come with a variety of brands, prices, and features...
               </p>
-              <Link className="read-more-btn" to="/blogsingle"> Read More <i className="ion-android-arrow-dropright-circle" /></Link>
+              <a className="read-more-btn" href="blog-single-left-sidebar.html"> Read More <i className="ion-android-arrow-dropright-circle" /></a>
             </div>
           </div>
         </article>
@@ -3991,12 +3987,12 @@ class Index3 extends React.Component
           </div>
           <div className="blog-post-content d-flex">
             <div className="blog-post-content-cell">
-            <li><Link to="/blogleft"> Digital</Link></li>
-              <h4 className="blog-post-heading"><Link to ="/blogsingle">HEADPHONES</Link></h4>
+              <a href="blog-grid-left-sidebar.html" className="blog-meta">Digital</a>
+              <h4 className="blog-post-heading"><a href="blog-single-left-sidebar.html">HEADPHONES</a></h4>
               <p className="blog-text">
                 The Best Noise-Cancelling Headphones for Every Budget...
               </p>
-              <Link className="read-more-btn" to="/blogsingle"> Read More <i className="ion-android-arrow-dropright-circle" /></Link>
+              <a className="read-more-btn" href="blog-single-left-sidebar.html"> Read More <i className="ion-android-arrow-dropright-circle" /></a>
             </div>
           </div>
         </article>
@@ -4008,12 +4004,12 @@ class Index3 extends React.Component
             </div>
           </div>
           <div className="blog-post-content">
-            <Link to="/blogleft" className="blog-meta">Fashion</Link>
-            <h4 className="blog-post-heading"><Link to="/blogsingle">This is Foruth Post For XipBlog</Link></h4>
+            <a href="blog-grid-left-sidebar.html" className="blog-meta">Fashion</a>
+            <h4 className="blog-post-heading"><a href="blog-single-left-sidebar.html">This is Foruth Post For XipBlog</a></h4>
             <p className="blog-text">
               Lorem Ipsum is simply dummy text of the printing and typeSettings industry. Lorem Ipsum has been the industrys ...
             </p>
-            <Link className="read-more-btn" to="/blogsingle"> Read More <i className="ion-android-arrow-dropright-circle" /></Link>
+            <a className="read-more-btn" href="blog-single-left-sidebar.html"> Read More <i className="ion-android-arrow-dropright-circle" /></a>
           </div>
         </article>
         {/* single item */}
@@ -4114,7 +4110,7 @@ class Index3 extends React.Component
                       <ul className="dropdown-nav">
                         <li><Link to="/myaccount">My Account</Link></li>
                         <li><Link to="/checkout">Checkout</Link></li>
-                        <li><Link to="/login">Login</Link></li>
+                        <li><Link to ="/login">Login</Link></li>
                       </ul>
                     </li>
                     {/* Settings End */}
@@ -4293,7 +4289,7 @@ class Index3 extends React.Component
                   {/*Cart info Start */}
                   <div className="cart-info d-flex">
                   <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
-                     <Link to ="/wishlist" className="count-cart heart" ></Link>
+                    <Link to="/wishlist" className="count-cart heart" ></Link> 
                     <div className="mini-cart-warp">
                       <a href="#" className="count-cart"><span>$20.00</span></a>
                       <div className="mini-cart-content">
@@ -4445,8 +4441,7 @@ class Index3 extends React.Component
                             <li><a href="index.html">Organic 1</a></li>
                             <li><a href="index-2.html">Organic 2</a></li>
                             <li><a href="index-3.html">Organic 3</a></li>
-                            <li><Link to="/index1">Organic 4 </Link></li>
-                          </ul>
+                            <li><Link to="/index1">Organic  </Link></li> </ul>
                         </li>
                         <li className="menu-dropdown position-static">
                           <a href="#">Home Cosmetic <i className="ion-ios-arrow-down" /></a>
@@ -4460,7 +4455,7 @@ class Index3 extends React.Component
                         <li className="menu-dropdown position-static">
                           <a href="#">Home Digital <i className="ion-ios-arrow-down" /></a>
                           <ul className="sub-menu sub-menu-2">
-                            <li><a href="index-9.html">Digital 1</a></li>
+                          <li><Link to="/index3">Digital </Link></li>
                             <li><a href="index-10.html">Digital 2</a></li>
                             <li><a href="index-11.html">Digital 3</a></li>
                             <li><a href="index-12.html">Digital 4</a></li>
@@ -4492,6 +4487,7 @@ class Index3 extends React.Component
                         <li>
                           <ul>
                             <li className="mega-menu-title"><a href="#">Shop Grid</a></li>
+                          
                             <li><Link to="/shop">Shop Grid 3 Column</Link></li>
                             <li><a href="shop-4-column.html">Shop Grid 4 Column</a></li>
                             <li><a href="shop-left-sidebar.html">Shop Grid Left Sidebar</a></li>
@@ -4501,7 +4497,7 @@ class Index3 extends React.Component
                         <li>
                           <ul>
                             <li className="mega-menu-title"><a href="#">Shop List</a></li>
-                            <li><a href="shop-list.html">Shop List</a></li>
+                            <li><Link to="/shoplist">Shop List</Link></li>
                             <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
                             <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>
                           </ul>
@@ -4542,14 +4538,13 @@ class Index3 extends React.Component
                     <li className="menu-dropdown">
                       <a href="#">Pages <i className="ion-ios-arrow-down" /></a>
                       <ul className="sub-menu">
-                        <li><Link to="/about">About Page</Link></li>
-                        <li><Link to="/cart">Cart Page</Link></li>
-                        <li><Link to="/checkout">Checkout</Link></li>
-                        <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
-
-                        <li><Link to="/login">Login &amp; Regiter Page</Link></li>
-                        <li><Link to="/myaccount">My Account</Link></li>
-                        <li><Link to="/wishlist">Wishlist Page</Link></li>
+                      <li><Link to="/about">About Page</Link></li>
+                
+                <li><Link to="/checkout">Checkout Page</Link></li>
+                <li><Link to="/compare">Compare Page</Link></li>
+                <li><Link to="/login">Login &amp; Regiter Page</Link></li>
+                <li><Link to="/myaccount">Account Page</Link></li>
+                <li><Link to="/wishlist">Wishlist Page</Link></li>
                       </ul>
                     </li>
                     <li className="menu-dropdown">
@@ -4578,7 +4573,7 @@ class Index3 extends React.Component
                         </li>
                       </ul>
                     </li>
-                    <li><Link to="/contact">Contact Us</Link></li>
+                    <li><a href="contact.html">Contact Us</a></li>
                   </ul>
                 </div>
                 {/*Main Navigation End */}
@@ -4737,8 +4732,8 @@ class Index3 extends React.Component
                 {/*Contact info End */}
                 {/*Cart info Start */}
                 <div className="cart-info d-flex">
-                <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
-                  <Link to ="/wishlist" className="count-cart heart d-xs-none" ></Link>
+                  <Link to="/compare" className="count-cart random d-xs-none" ></Link>
+                  <Link to="/wishlist" className="count-cart heart d-xs-none" ></Link>
                   <div className="mini-cart-warp">
                     <a href="#" className="count-cart"><span>$20.00</span></a>
                     <div className="mini-cart-content">
@@ -4800,7 +4795,7 @@ class Index3 extends React.Component
                           <li><a href="index.html">Organic 1</a></li>
                           <li><a href="index-2.html">Organic 2</a></li>
                           <li><a href="index-3.html">Organic 3</a></li>
-                          <li><Link to="/index1">Organic 4 </Link></li>
+                          <li><Link to="/index1">Organic  </Link></li>
                         </ul>
                       </li>
                       <li>
@@ -4815,7 +4810,7 @@ class Index3 extends React.Component
                       <li>
                         <a href="#">Home Digital</a>
                         <ul>
-                          <li><a href="index-9.html">Digital 1</a></li>
+                        <li><Link to="/index3">Digital </Link></li>
                           <li><a href="index-10.html">Digital 2</a></li>
                           <li><a href="index-11.html">Digital 3</a></li>
                           <li><a href="index-12.html">Digital 4</a></li>
@@ -4856,7 +4851,7 @@ class Index3 extends React.Component
                       <li>
                         <a href="#">Shop List</a>
                         <ul>
-                          <li><a href="shop-list.html">Shop List</a></li>
+                        <li><Link to="/shoplist">Shop List</Link></li>
                           <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
                           <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>
                         </ul>
@@ -4887,13 +4882,12 @@ class Index3 extends React.Component
                   <li>
                     <a href="#">Pages</a>
                     <ul>
-                      <li><Link to="/about">About Page</Link></li>
-                      <li><Link to="/cart">Cart Page</Link></li>
-                      <li><Link to="/checkout">Checkout Page</Link></li>
-                      <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
-                      <li> <Link to="/login">Login &amp; Regiter Page</Link></li>
-                       <li><Link to="/myaccount">My Account</Link></li>
-                      <li><Link to="/wishlist">Wishlist Page</Link></li>
+                    <li><Link to="/about">About Page</Link></li>
+                    <li><Link to="/checkout">Checkout Page</Link></li>
+                        <li><Link to="/compare">Compare Page</Link></li>
+                        <li><Link to="/login">Login &amp; Regiter Page</Link></li>
+                        <li><Link to="/myaccount">Account Page</Link></li>
+                        <li><Link to="/wishlist">Wishlist Page</Link></li>
                     </ul>
                   </li>
                   <li>
@@ -4907,7 +4901,7 @@ class Index3 extends React.Component
                       <li><a href="blog-single-right-sidebar.html">Blog Single Right Sidebar</a></li>
                     </ul>
                   </li>
-                  <li><Link to="/contact">Contact Us</Link></li>
+                  <li><a href="contact.html">Contact Us</a></li>
                 </ul>
               </nav>
             </div>
@@ -5175,9 +5169,8 @@ class Index3 extends React.Component
             <div className="add-to-link">
               <ul>
               <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
-
                 <li>
-                <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                  <a href="wishlist.html"><i className="ion-android-favorite-outline" /></a>
                 </li>
                 <li>
                 <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
@@ -6113,7 +6106,6 @@ class Index3 extends React.Component
                         <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
                           <li>
                           <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
-
                           </li>
                           <li>
                           <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
@@ -6478,7 +6470,8 @@ class Index3 extends React.Component
                         <ul>
                         <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
                           <li>
-                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>                          </li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
                           <li>
                           <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
                           </li>
@@ -6522,9 +6515,9 @@ class Index3 extends React.Component
                       <div className="add-to-link">
                         <ul>
                         <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
-        
                           <li>
-                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>                          </li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
                           <li>
                           <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
                           </li>
@@ -6789,16 +6782,1593 @@ class Index3 extends React.Component
             <li className="nav-item">
               <a className="nav-link" data-toggle="tab" href="#onsale-2">Speakers</a>
             </li>
-            <li className="nav-item" />
-          </ul></div></div></section></div>
-          </div>
-
-
-
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="tab" href="#bestseller-2">MP3 Players</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="tab" href="#bestseller-3">Microphones</a>
+            </li>
+          </ul>
+        </div>
+        {/* Tab panes */}
+        <div className="tab-content">
+          {/* 1st tab start */}
+          <div id="feature-2" className="tab-pane active">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-4">
+                <div className="banner-wrapper">
+                  <a href="shop-4-column.html"><img src="assets/images/banner-image/27.jpg" alt /></a>
+                </div>
+              </div>
+              {/* New Arrivals Area Start */}
+              <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8 mt-res-sm-90 mt-res-sm-60 mt-res-sm-60">
+                {/* New Product Slider Start */}
+                <div className="new-product-slider owl-carousel owl-nav-style">
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/13.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/13.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Portable wireless speaker</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price">€23.90</li>
+                            <li className="current-price">€21.51</li>
+                            <li className="discount-price">-10%</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/12.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/12.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>GRAPHIC CORNER</span></a>
+                        <h2><a href="single-product.html" className="product-link">JBL FLIP SPEAKER</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€29.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  {/* Product Single Item */}
+                  {/* Product Single Item */}
+                  {/* Product Single Item */}
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="https://images-na.ssl-images-amazon.com/images/I/51V5I6C4ooL._SL1100_.jpg" alt />
+                          <img className="second-img" src="https://images-na.ssl-images-amazon.com/images/I/51V5I6C4ooL._SL1100_.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Bluetooth Earphones</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€11.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                {/* Product Slider End */}
+              </div>
             </div>
-        )
-        
-    }
+          </div>
+          {/* 1st tab end */}
+          {/* 2nd tab start */}
+          <div id="onsale-2" className="tab-pane fade">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-4">
+                <div className="banner-wrapper">
+                  <a href="shop-4-column.html"><img src="assets/images/banner-image/27.jpg" alt /></a>
+                </div>
+              </div>
+              {/* New Arrivals Area Start */}
+              <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8 mt-res-sm-90 mt-res-sm-60 mt-res-sm-60">
+                {/* New Product Slider Start */}
+                <div className="new-product-slider owl-carousel owl-nav-style">
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/13.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/13.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Originals Kaval Windbr...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price">€23.90</li>
+                            <li className="current-price">€21.51</li>
+                            <li className="discount-price">-10%</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/12.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/12.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>GRAPHIC CORNER</span></a>
+                        <h2><a href="single-product.html" className="product-link">Brixton Patrol All Terr...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€29.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/8.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/8.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Originals Kaval Windbr...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price">€35.90</li>
+                            <li className="current-price">€34.11</li>
+                            <li className="discount-price">-5%</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/4.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/4.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Madden by Steve Madd...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price">€11.90</li>
+                            <li className="current-price">€10.12</li>
+                            <li className="discount-price">-15%</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/14.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/2.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Water and Wind Resist...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€11.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/15.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/15.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Juicy Couture Solid Slee...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€18.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/15.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/15.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Water and Wind Resist...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€11.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                {/* Product Slider End */}
+              </div>
+            </div>
+          </div>
+          {/* 2nd tab end */}
+          {/* 3rd tab start */}
+          <div id="bestseller-2" className="tab-pane fade">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-4">
+                <div className="banner-wrapper">
+                  <a href="shop-4-column.html"><img src="assets/images/banner-image/27.jpg" alt /></a>
+                </div>
+              </div>
+              {/* New Arrivals Area Start */}
+              <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8 mt-res-sm-90 mt-res-sm-60 mt-res-sm-60">
+                {/* New Product Slider Start */}
+                <div className="new-product-slider owl-carousel owl-nav-style">
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/13.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/13.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Originals Kaval Windbr...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price">€23.90</li>
+                            <li className="current-price">€21.51</li>
+                            <li className="discount-price">-10%</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/12.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/12.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>GRAPHIC CORNER</span></a>
+                        <h2><a href="single-product.html" className="product-link">Brixton Patrol All Terr...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€29.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/8.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/8.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Originals Kaval Windbr...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price">€35.90</li>
+                            <li className="current-price">€34.11</li>
+                            <li className="discount-price">-5%</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/4.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/4.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Madden by Steve Madd...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price">€11.90</li>
+                            <li className="current-price">€10.12</li>
+                            <li className="discount-price">-15%</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/14.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/2.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Water and Wind Resist...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€11.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/15.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/15.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Juicy Couture Solid Slee...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€18.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/15.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/15.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Water and Wind Resist...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€11.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                {/* Product Slider End */}
+              </div>
+            </div>
+          </div>
+          {/* 3rd tab end */}
+          {/* 4rd tab start */}
+          <div id="bestseller-3" className="tab-pane fade">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-4">
+                <div className="banner-wrapper">
+                  <a href="shop-4-column.html"><img src="assets/images/banner-image/27.jpg" alt /></a>
+                </div>
+              </div>
+              {/* New Arrivals Area Start */}
+              <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8 mt-res-sm-90 mt-res-sm-60 mt-res-sm-60">
+                {/* New Product Slider Start */}
+                <div className="new-product-slider owl-carousel owl-nav-style">
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/13.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/13.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Originals Kaval Windbr...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price">€23.90</li>
+                            <li className="current-price">€21.51</li>
+                            <li className="discount-price">-10%</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/12.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/12.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>GRAPHIC CORNER</span></a>
+                        <h2><a href="single-product.html" className="product-link">Brixton Patrol All Terr...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€29.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/8.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/8.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Originals Kaval Windbr...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price">€35.90</li>
+                            <li className="current-price">€34.11</li>
+                            <li className="discount-price">-5%</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/4.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/4.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Madden by Steve Madd...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price">€11.90</li>
+                            <li className="current-price">€10.12</li>
+                            <li className="discount-price">-15%</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/14.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/2.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Water and Wind Resist...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€11.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/15.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/15.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Juicy Couture Solid Slee...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€18.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                  {/* Product Single Item */}
+                  <div className="product-inner-item">
+                    <article className="list-product mb-30px">
+                      <div className="img-block">
+                        <a href="single-product.html" className="thumbnail">
+                          <img className="first-img" src="assets/images/product-image/electronic/15.jpg" alt />
+                          <img className="second-img" src="assets/images/product-image/electronic/15.jpg" alt />
+                        </a>
+                        <div className="quick-view">
+                          <a className="quick_view" href="#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                            <i className="ion-ios-search-strong" />
+                          </a>
+                        </div>
+                      </div>
+                      <ul className="product-flag">
+                        <li className="new">New</li>
+                      </ul>
+                      <div className="product-decs">
+                        <a className="inner-link" href="shop-4-column.html"><span>STUDIO DESIGN</span></a>
+                        <h2><a href="single-product.html" className="product-link">Water and Wind Resist...</a></h2>
+                        <div className="rating-product">
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                          <i className="ion-android-star" />
+                        </div>
+                        <div className="pricing-meta">
+                          <ul>
+                            <li className="old-price not-cut">€11.90</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="add-to-link">
+                        <ul>
+                        <li className="cart"><Link classname="cart-btn" to="/cart">ADD TO CART </Link></li>
+                          <li>
+                          <Link to="/wishlist"><i className="ion-android-favorite-outline" /></Link>
+                          </li>
+                          <li>
+                          <Link to="/compare"><i className="ion-ios-shuffle-strong" /></Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                {/* Product Slider End */}
+              </div>
+            </div>
+          </div>
+          {/* 4rd tab end */}
+        </div>
+      </div>
+    </section>
+    {/* Category Tab Area end */}
+    {/* Blog area Start */}
+    <section className="blog-area mb-30px mt-30">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            {/* Section title */}
+            <div className="section-title">
+              <h2>Latest Blogs</h2>
+            </div>
+            {/* Section title */}
+          </div>
+        </div>
+        {/* Blog Slider Start */}
+        <div className="blog-slider-active owl-carousel owl-nav-style">
+          {/* single item */}
+          <article className="blog-post">
+            <div className="blog-post-top">
+              <div className="blog-img">
+                <img src="https://cdn.mos.cms.futurecdn.net/jVENDS4AQgW2nnC6X9oKuQ-1024-80.jpg.webp" alt />
+              </div>
+            </div>
+            <div className="blog-post-content d-flex">
+              <div className="blog-post-content-cell">
+                <a href="blog-grid-left-sidebar.html" className="blog-meta">Digital</a>
+                <h4 className="blog-post-heading"><a href="blog-single-left-sidebar.html">The best Android phones in 2021</a></h4>
+                <p className="blog-text">
+                  Those on a budget can get a good-enough Android phone for under $200. Step up to the $400 range, and the choices get considerably better, especially when it comes to camera quality...
+                </p>
+                <a className="read-more-btn" href="blog-single-left-sidebar.html"> Read More <i className="ion-android-arrow-dropright-circle" /></a>
+              </div>
+            </div>
+          </article>
+          {/* single item */}
+          <article className="blog-post">
+            <div className="blog-post-top">
+              <div className="blog-img">
+                <img src="https://cdn.vox-cdn.com/thumbor/dzhWanJhP2nJuKInwQMZhK77GEY=/0x0:2040x1360/1820x1024/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66770460/VRG_4013_Best_Laptop_Grid.0.jpg" alt />
+              </div>
+            </div>
+            <div className="blog-post-content d-flex">
+              <div className="blog-post-content-cell">
+                <a href="blog-grid-left-sidebar.html" className="blog-meta">Digital</a>
+                <h4 className="blog-post-heading"><a href="blog-single-left-sidebar.html">The best laptops for you, from ultraportables to high-powered editing machines</a></h4>
+                <p className="blog-text">
+                  The best laptop of 2021 can come with a variety of brands, prices, and features...
+                </p>
+                <a className="read-more-btn" href="blog-single-left-sidebar.html"> Read More <i className="ion-android-arrow-dropright-circle" /></a>
+              </div>
+            </div>
+          </article>
+          {/* single item */}
+          <article className="blog-post">
+            <div className="blog-post-top">
+              <div className="blog-img">
+                <img src="https://media.pitchfork.com/photos/60c2753bcefa438adaeb6d42/2:1/w_2560%2Cc_limit/noisecancel%252520header%252520copy.png" alt />
+              </div>
+            </div>
+            <div className="blog-post-content d-flex">
+              <div className="blog-post-content-cell">
+                <a href="blog-grid-left-sidebar.html" className="blog-meta">Digital</a>
+                <h4 className="blog-post-heading"><a href="blog-single-left-sidebar.html">HEADPHONES</a></h4>
+                <p className="blog-text">
+                  The Best Noise-Cancelling Headphones for Every Budget...
+                </p>
+                <a className="read-more-btn" href="blog-single-left-sidebar.html"> Read More <i className="ion-android-arrow-dropright-circle" /></a>
+              </div>
+            </div>
+          </article>
+          {/* single item */}
+          <article className="blog-post">
+            <div className="blog-post-top">
+              <div className="blog-img">
+                <img src="assets/images/blog-image/blog-8.jpg" alt />
+              </div>
+            </div>
+            <div className="blog-post-content">
+              <a href="blog-grid-left-sidebar.html" className="blog-meta">Fashion</a>
+              <h4 className="blog-post-heading"><a href="blog-single-left-sidebar.html">This is Foruth Post For XipBlog</a></h4>
+              <p className="blog-text">
+                Lorem Ipsum is simply dummy text of the printing and typeSettings industry. Lorem Ipsum has been the industrys ...
+              </p>
+              <a className="read-more-btn" href="blog-single-left-sidebar.html"> Read More <i className="ion-android-arrow-dropright-circle" /></a>
+            </div>
+          </article>
+          {/* single item */}
+        </div>
+        {/* Blog Slider Start */}
+      </div>
+    </section>
+    {/* Blog Area End */}
+    {/* Brand area start */}
+    <div className="brand-area">
+      <div className="container">
+        <div className="brand-slider owl-carousel owl-nav-style owl-nav-style-2">
+          <div className="brand-slider-item">
+            <a href="#"><img src="assets/images/brand-logo/1.jpg" alt /></a>
+          </div>
+          <div className="brand-slider-item">
+            <a href="#"><img src="assets/images/brand-logo/2.jpg" alt /></a>
+          </div>
+          <div className="brand-slider-item">
+            <a href="#"><img src="assets/images/brand-logo/3.jpg" alt /></a>
+          </div>
+          <div className="brand-slider-item">
+            <a href="#"><img src="assets/images/brand-logo/4.jpg" alt /></a>
+          </div>
+          <div className="brand-slider-item">
+            <a href="#"><img src="assets/images/brand-logo/5.jpg" alt /></a>
+          </div>
+          <div className="brand-slider-item">
+            <a href="#"><img src="assets/images/brand-logo/1.jpg" alt /></a>
+          </div>
+          <div className="brand-slider-item">
+            <a href="#"><img src="assets/images/brand-logo/2.jpg" alt /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* Brand area end */}
+    {/* Footer Area start */}
+    <footer className="footer-area">
+      <div className="footer-top">
+        <div className="container">
+          <div className="row">
+            {/* footer single wedget */}
+            <div className="col-md-6 col-lg-4">
+              {/* footer logo */}
+              <div className="footer-logo">
+                <a href="index.html"><img src="assets/images/logo/footer-logo-electronic.png" alt /></a>
+              </div>
+              {/* footer logo */}
+              <div className="about-footer">
+                <p className="text-info" />
+                <div className="need-help">
+                  <p className="phone-info">
+                    NEED HELP?
+                    <span>
+                      (+800) 345 678 <br />
+                      (+800) 123 456
+                    </span>
+                  </p>
+                </div>
+                <div className="social-info">
+                  <ul>
+                    <li>
+                      <a href="#"><i className="ion-social-facebook" /></a>
+                    </li>
+                    <li>
+                      <a href="#"><i className="ion-social-twitter" /></a>
+                    </li>
+                    <li>
+                      <a href="#"><i className="ion-social-youtube" /></a>
+                    </li>
+                    <li>
+                      <a href="#"><i className="ion-social-google" /></a>
+                    </li>
+                    <li>
+                      <a href="#"><i className="ion-social-instagram" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {/* footer single wedget */}
+            <div className="col-md-6 col-lg-2 mt-res-sx-30px mt-res-md-30px">
+              <div className="single-wedge">
+                <h4 className="footer-herading">Information</h4>
+                <div className="footer-links">
+                  <ul>
+                    <li><a href="#">Delivery</a></li>
+                    <li><Link to="/about">About Page</Link></li>
+                    <li><a href="#">Secure Payment</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Stores</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {/* footer single wedget */}
+            <div className="col-md-6 col-lg-2 mt-res-md-50px mt-res-sx-30px mt-res-md-30px">
+              <div className="single-wedge">
+                <h4 className="footer-herading">Custom Links</h4>
+                <div className="footer-links">
+                  <ul>
+                    <li><a href="#">Legal Notice</a></li>
+                    <li><a href="#">Prices Drop</a></li>
+                    <li><a href="#">New Products</a></li>
+                    <li><a href="#">Best Sales</a></li>
+                    <li><Link to ="/login">Login</Link></li>
+                    <li><Link to="/myaccount">My Account</Link></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {/* footer single wedget */}
+            <div className="col-md-6 col-lg-4 mt-res-md-50px mt-res-sx-30px mt-res-md-30px">
+              <div className="single-wedge">
+                <h4 className="footer-herading">Newsletter</h4>
+                <div className="subscrib-text">
+                  <p>You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</p>
+                </div>
+                <div id="mc_embed_signup" className="subscribe-form">
+                  <form id="mc-embedded-subscribe-form" className="validate" noValidate target="_blank" name="mc-embedded-subscribe-form" method="post" action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&id=05d85f18ef">
+                    <div id="mc_embed_signup_scroll" className="mc-form">
+                      <input className="email" type="email" required placeholder="Enter your email here.." name="EMAIL" defaultValue />
+                      <div className="mc-news" aria-hidden="true" style={{position: 'absolute', left: '-5000px'}}>
+                        <input type="text" defaultValue tabIndex={-1} name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef" />
+                      </div>
+                      <div className="clear">
+                        <input id="mc-embedded-subscribe" className="button" type="submit" name="subscribe" defaultValue="Sign Up" />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div className="img_app">
+                  <a href="#"><img src="assets/images/icons/app_store.png" alt /></a>
+                  <a href="#"><img src="assets/images/icons/google_play.png" alt /></a>
+                </div>
+              </div>
+            </div>
+            {/* footer single wedget */}
+          </div>
+        </div>
+      </div>
+      {/*  Footer Bottom Area start */}
+      <div className="footer-bottom">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 col-lg-4">
+              <p className="copy-text">Copyright © <a href="https://hasthemes.com/"> HasThemes</a>. All Rights Reserved</p>
+            </div>
+            <div className="col-md-6 col-lg-8">
+              <img className="payment-img" src="assets/images/icons/payment.png" alt />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*  Footer Bottom Area End*/}
+    </footer>
+    {/*  Footer Area End */}
+  </div>
+  {/* Modal */}
+  <div className="modal fade" id="exampleModal" tabIndex={-1} role="dialog">
+    <div className="modal-dialog" role="document">
+      <div className="modal-content">
+        <div className="modal-header">
+          <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+        </div>
+        <div className="modal-body">
+          <div className="row">
+            <div className="col-md-5 col-sm-12 col-xs-12">
+              <div className="tab-content quickview-big-img">
+                <div id="pro-1" className="tab-pane fade show active">
+                  <img src="assets/images/product-image/electronic/1.jpg" alt />
+                </div>
+                <div id="pro-2" className="tab-pane fade">
+                  <img src="assets/images/product-image/electronic/2.jpg" alt />
+                </div>
+                <div id="pro-3" className="tab-pane fade">
+                  <img src="assets/images/product-image/electronic/3.jpg" alt />
+                </div>
+                <div id="pro-4" className="tab-pane fade">
+                  <img src="assets/images/product-image/electronic/4.jpg" alt />
+                </div>
+              </div>
+              {/* Thumbnail Large Image End */}
+              {/* Thumbnail Image End */}
+              <div className="quickview-wrap mt-15">
+                <div className="quickview-slide-active owl-carousel nav owl-nav-style owl-nav-style-2" role="tablist">
+                  <a className="active" data-toggle="tab" href="#pro-1"><img src="assets/images/product-image/electronic/1.jpg" alt /></a>
+                  <a data-toggle="tab" href="#pro-2"><img src="assets/images/product-image/electronic/2.jpg" alt /></a>
+                  <a data-toggle="tab" href="#pro-3"><img src="assets/images/product-image/electronic/3.jpg" alt /></a>
+                  <a data-toggle="tab" href="#pro-4"><img src="assets/images/product-image/electronic/4.jpg" alt /></a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-7 col-sm-12 col-xs-12">
+              <div className="product-details-content quickview-content">
+                <h2>Originals Kaval Windbr</h2>
+                <p className="reference">Reference:<span> demo_17</span></p>
+                <div className="pro-details-rating-wrap">
+                  <div className="rating-product">
+                    <i className="ion-android-star" />
+                    <i className="ion-android-star" />
+                    <i className="ion-android-star" />
+                    <i className="ion-android-star" />
+                    <i className="ion-android-star" />
+                  </div>
+                  <span className="read-review"><a className="reviews" href="#">Read reviews (1)</a></span>
+                </div>
+                <div className="pricing-meta">
+                  <ul>
+                    <li className="old-price not-cut">€18.90</li>
+                  </ul>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco</p>
+                <div className="pro-details-size-color">
+                  <div className="pro-details-color-wrap">
+                    <span>Color</span>
+                    <div className="pro-details-color-content">
+                      <ul>
+                        <li className="blue" />
+                        <li className="maroon active" />
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="pro-details-quality">
+                  <div className="cart-plus-minus">
+                    <input className="cart-plus-minus-box" type="text" name="qtybutton" defaultValue={1} />
+                  </div>
+                  <div className="pro-details-cart btn-hover">
+                    <a href="#"> + Add To Cart</a>
+                  </div>
+                </div>
+                <div className="pro-details-wish-com">
+                  <div className="pro-details-wishlist">
+                    <a href="#"><i className="ion-android-favorite-outline" />Add to wishlist</a>
+                  </div>
+                  <div className="pro-details-compare">
+                    <a href="#"><i className="ion-ios-shuffle-strong" />Add to compare</a>
+                  </div>
+                </div>
+                <div className="pro-details-social-info">
+                  <span>Share</span>
+                  <div className="social-info">
+                    <ul>
+                      <li>
+                        <a href="#"><i className="ion-social-facebook" /></a>
+                      </li>
+                      <li>
+                        <a href="#"><i className="ion-social-twitter" /></a>
+                      </li>
+                      <li>
+                        <a href="#"><i className="ion-social-google" /></a>
+                      </li>
+                      <li>
+                        <a href="#"><i className="ion-social-instagram" /></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/* Modal end */}
+  {/* Scripts to be loaded  */}
+  {/* JS
+============================================ */}
+  {/*====== Vendors js ======*/}
+  {/*====== Plugins js ======*/}
+  {/* 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   */}
+  {/*====== Use the minified version files listed below for better performance and remove the files listed above ======*/}
+  {/* Main Activation JS */}
+</div>
 
-}
-export default Index3;
+         </div>
+        )
+    }
+  }
+  export default Index3;
